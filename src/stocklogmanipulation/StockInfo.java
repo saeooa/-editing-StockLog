@@ -6,10 +6,10 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.JToolBar;
 
-public class StockInfo_new {
+public class StockInfo {
     static String userId; // 사용자 id 저장 변수 추가
     static String stockName; // 주식종목명 저장 변수 추가
-    public StockInfo_new(String userId, String stockName){
+    public StockInfo(String userId, String stockName){
         this.userId = userId;
         this.stockName = stockName;
 
@@ -121,13 +121,13 @@ public class StockInfo_new {
             // 패널에 기능 추가
             Panel1Action.addFunctionality(internalPanel1); // 패널 1에 기능 추가
             Panel1_1Action.addFunctionality(internalPanel1_1);
-            SI_PanelAction2.addFunctionality(internalPanel2,stockName); // 패널 2에 기능 추가
-            SI_PanelAction2_1.addFunctionality(internalPanel2_1,stockName); // 패널 2-1에 기능 추가
-            PanelAction3.addFunctionality(internalPanel3, userId); // 관심 주식 표시
-            PanelAction4.addFunctionality(internalPanel4, stockName); // 보유 주식 표시
+            SI_Panel2Action.addFunctionality(internalPanel2,stockName); // 패널 2에 기능 추가
+            SI_Panel2_1Action.addFunctionality(internalPanel2_1,stockName); // 패널 2-1에 기능 추가
+            SI_Panel3Action.addFunctionality(internalPanel3, userId); // 관심 주식 표시
+            SI_Panel4Action.addFunctionality(internalPanel4, stockName); // 보유 주식 표시
             SI_Panel5Action.addFunctionality(internalPanel5, stockName); // 패널 5에 기능 추가
             SI_Panel5_1Action.addFunctionality(internalPanel5_1); // 패널5-1에 기능 추가
-            PanelAction6.addFunctionality(internalPanel6, userId, stockName); // 패널 6에 기능 추가
+            SI_Panel6Action.addFunctionality(internalPanel6, userId, stockName); // 패널 6에 기능 추가
             Panel6Action.executeApiRequestAndDisplayInPanel(bottomPanel); // 하단 바에 기능 추가
 
             frame.add(desktopPane);
@@ -231,7 +231,7 @@ public class StockInfo_new {
     public static void main(String[] args) {
         DBconnection dbConnector = new DBconnection();
         SwingUtilities.invokeLater(() -> {
-            StockInfo_new home = new StockInfo_new(userId, stockName);
+            StockInfo home = new StockInfo(userId, stockName);
         });
 
     }

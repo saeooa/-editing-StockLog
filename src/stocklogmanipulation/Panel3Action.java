@@ -10,7 +10,6 @@ import org.xml.sax.SAXException;
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
-import javax.swing.table.*;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.JTableHeader;
 import javax.xml.parsers.DocumentBuilder;
@@ -113,7 +112,7 @@ public class Panel3Action {
                             // 여기서 선택된 행의 데이터를 얻을 수 있음
                             String stockName = (String) tableModel.getValueAt(row, 0); // 종목명은 첫 번째 열(인덱스 0)
 
-                            new StockInfo_new(userId, stockName); // 종목명을 이용해 페이지를 열거나 처리하는 함수 호출
+                            new StockInfo(userId, stockName); // 종목명을 이용해 페이지를 열거나 처리하는 함수 호출
                         }
                     }
                 });

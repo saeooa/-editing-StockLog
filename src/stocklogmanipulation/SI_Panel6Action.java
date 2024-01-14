@@ -30,7 +30,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 // 패널 6에 대한 동작을 처리하는 클래스
-class PanelAction6 { // 특정 주식에 대한 매도, 매수 리스트
+class SI_Panel6Action { // 특정 주식에 대한 매도, 매수 리스트
     static Object[] row = new Object[9];
     static String[] columnNames = {"종목명", "증권사", "매도/매수", "날짜", "주식단가", "수량", "수익률", "매매비용(세금, 수수료)", "메모"};
     static DefaultTableModel tableModel = new DefaultTableModel(null, columnNames);
@@ -95,7 +95,7 @@ class PanelAction6 { // 특정 주식에 대한 매도, 매수 리스트
 
                         // 여기서 선택된 행의 데이터
                         String stockName = (String) tableModel.getValueAt(row, 0);
-                        new StockInfo_new(userId, stockName);
+                        new StockInfo(userId, stockName);
                     }
                 }
             });

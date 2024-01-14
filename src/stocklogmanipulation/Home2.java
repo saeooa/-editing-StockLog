@@ -1,3 +1,4 @@
+/*
 package stocklogmanipulation;
 
 import javax.swing.*;
@@ -158,3 +159,4 @@ public class Home2 {
         });
     }
 }
+*/

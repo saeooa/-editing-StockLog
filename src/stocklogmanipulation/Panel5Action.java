@@ -96,7 +96,7 @@ public class Panel5Action { // 주식 매매 기록
 
                         // 여기서 선택된 행의 데이터
                         String stockName = (String) tableModel.getValueAt(row, 0);
-                        new StockInfo_new(userId, stockName);
+                        new StockInfo(userId, stockName);
                     }
                 }
             });
