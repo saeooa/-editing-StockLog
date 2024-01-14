@@ -280,7 +280,7 @@ public class PanelAction3 extends Thread {
         return node.getNodeValue();
     }
 
-    private static void InterestStockFrame(DefaultTableModel tableModel, Object[] row, String userId) {
+    public static void InterestStockFrame(DefaultTableModel tableModel, Object[] row, String userId) {
         JFrame interestFrame = new JFrame("관심 주식 추가");
         interestFrame.setLocation(200, 400);
         JPanel panel = new JPanel();
