@@ -10,7 +10,7 @@ import org.xml.sax.SAXException;
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
-import javax.swing.table.DefaultTableCellRenderer;
+import javax.swing.table.*;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.JTableHeader;
 import javax.xml.parsers.DocumentBuilder;
@@ -28,10 +28,9 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 // 패널 3에 대한 동작을 처리하는 클래스
-public class Panel3Action extends Thread {
+public class Panel3Action {
     static String[] columnNames = {"종목명", "종목코드", "현재주가", "시장 구분", "전일대비등락", "전일대비등락비"};
     static DefaultTableModel tableModel = new DefaultTableModel(null, columnNames);
-    private static final long UPDATE_INTERVAL = 24 * 60 * 60 * 1000; // 24시간
 
     public static void addFunctionality(JPanel panel, String userId) {
         // 데이터베이스 연결
@@ -111,9 +110,9 @@ public class Panel3Action extends Thread {
                             JTable target = (JTable) e.getSource();
                             int row = target.getSelectedRow();
 
-                            // 여기서 선택된 행의 데이터를 얻을 수 있어요.
+                            // 여기서 선택된 행의 데이터를 얻을 수 있음
                             String stockName = (String) tableModel.getValueAt(row, 0); // 종목명은 첫 번째 열(인덱스 0)
-                            // System.out.println(stockName);
+
                             new StockInfo_new(userId, stockName); // 종목명을 이용해 페이지를 열거나 처리하는 함수 호출
                         }
                     }
@@ -195,6 +194,11 @@ public class Panel3Action extends Thread {
                 String line;
                 while ((line = in.readLine()) != null) {
                     strBuffer.append(line);
+                    // 만약 검색 결과가 0인 경우에 대한 처리
+                    if (strBuffer.length() == 0) {
+                        // 팝업을 통해 사용자에게 알림
+                        JOptionPane.showMessageDialog(null, "검색 결과가 없습니다.");
+                    }
                 }
             } else {
                 System.out.println("HTTP request failed with response code: " + responseCode);
@@ -372,6 +376,11 @@ public class Panel3Action extends Thread {
                             Element item = (Element) itemList.item(i);
                             String itemName = item.getElementsByTagName("itmsNm").item(0).getTextContent();
                             listModel.addElement(itemName);
+                            if (listModel.isEmpty()) {
+                                // 검색 결과가 없을 때 알림
+                                JOptionPane.showMessageDialog(null, "종목명 검색과 일치하는 결과가 없습니다.", "알림", JOptionPane.INFORMATION_MESSAGE);
+                            }
+
                         }
                         DefaultListModel<String> newModel = new DefaultListModel<>();
                         for (int i = 0; i < listModel.size(); i++) {
@@ -383,10 +392,10 @@ public class Panel3Action extends Thread {
                         searchList.setVisible(true);
                         scrollPane.setVisible(true);
                     } else {
+
                     }
                 } catch (Exception ex) {
                     ex.printStackTrace();
-                } finally {
                 }
             }
         });
@@ -394,12 +403,6 @@ public class Panel3Action extends Thread {
         searchList.addListSelectionListener(e -> {
             // 선택한 항목의 인덱스 가져오기
             int[] selectedIndices = searchList.getSelectedIndices();
-
-            // 선택한 항목이 없으면 테이블 비우기
-            if (selectedIndices.length == 0) {
-                tableModel.setRowCount(0);
-                return;
-            }
 
             // 기존 테이블 데이터 유지
             int rowCount = tableModel.getRowCount();
