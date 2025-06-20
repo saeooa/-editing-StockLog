@@ -61,7 +61,7 @@ public class SI_Panel2_1Action {
 
     private static void addDataToDataset(DefaultCategoryDataset dataset, String stockName) {
         // 엑셀 파일 경로
-        String excelFilePath = "C:\\Users\\user\\Documents\\카카오톡 받은 파일\\주식시세.xlsx";
+        String excelFilePath = "/Users/yangseyoung/sookmyung/객체/newStockLog/주식시세.xlsx";
 
         try (FileInputStream file = new FileInputStream(excelFilePath);
              Workbook workbook = new XSSFWorkbook(file)) {
