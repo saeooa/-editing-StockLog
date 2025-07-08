@@ -22,9 +22,49 @@
 </br>
 
 
+## 🛠 주요 기능
+
+
 ![Image](https://github.com/user-attachments/assets/73bde540-25ae-42d5-909a-f3c759af6391)
+### 1️⃣ 지수 차트 기능
+
+KOSPI, KOSDAQ 지수를 시계열 차트로 시각화합니다.  
+Yahoo Finance API를 호출하여 데이터를 가져오고, `JFreeChart`를 통해 그래프로 출력합니다.
+
+- ✅ 실시간 지수 조회
+- ✅ 시계열 차트 시각화 (`JFreeChart`)
+- ✅ 기간별 지수 비교
+
+**📂 관련 클래스**  
+`Panel1Action.java`, `SI_Panel1Action.java`
+
 ![Image](https://github.com/user-attachments/assets/5ed9303f-18f2-476d-9243-72d1bbc5d393)
+
+
+### 2️⃣ 테이블로 데이터 출력
+
+#### 📌 DB 연동
+JDBC를 통해 로컬 DB에 저장된 매매 정보를 불러와 `JTable`에 출력합니다.
+
+- ✅ `DefaultTableModel` 기반 테이블 구성
+- ✅ 사용자 매수/매도 기록 조회
+- ✅ SQL 쿼리 기반 데이터 처리
+
+**📂 관련 클래스**  
+`Panel2Action.java`
+
 ![Image](https://github.com/user-attachments/assets/3662dd29-6825-4a11-b9cf-ead21653f594)
+
+#### 🌐 API 연동
+금융위원회 주식 시세 정보 OpenAPI를 호출하여 실시간 종목 정보를 테이블로 출력합니다.
+
+- ✅ HTTP 요청 / 응답 처리
+- ✅ 종목별 시세 및 증감률 확인
+- ✅ `JTable`로 시각화
+
+**📂 관련 클래스**  
+`SI_Panel4Action.java`
+
 ![Image](https://github.com/user-attachments/assets/a7893b7b-bfe4-46ab-8ec3-527ee3b9caca)
 ![Image](https://github.com/user-attachments/assets/c89bd978-76fd-4a69-ab60-543774f02564)
 ![Image](https://github.com/user-attachments/assets/76846f61-a648-4a66-8961-4bc45b283c96)
