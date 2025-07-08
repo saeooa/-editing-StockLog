@@ -71,8 +71,9 @@ JDBC를 통해 로컬 DB에 저장된 매매 정보를 불러와 `JTable`에 출
 
 **📂 관련 클래스**  
 `SI_Panel4Action.java`
-</br>
+
 ---
+
 ![Image](https://github.com/user-attachments/assets/8d4d5570-80ec-4121-891b-244fdc48b965)
 ### 3️⃣ 검색창 기능
 
