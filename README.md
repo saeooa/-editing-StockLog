@@ -37,26 +37,25 @@
 
 
 ![Image](https://github.com/user-attachments/assets/73bde540-25ae-42d5-909a-f3c759af6391)
-## 🧩 전체 기능 요약
+## 🔖 전체 기능 요약
 
 | 기능 구분 | 세부 설명 |
 |-----------|-----------|
-| 🔐 로그인 / 회원가입 | 사용자 인증 기능 |
-| 📈 지수 차트 출력 | KOSPI / KOSDAQ |
-| ➕ 관심 종목 추가 | 실시간 종목 관리 |
-| 📋 보유 주식 확인 | 매도 주식 수익률 계산 |
-| 💰 수익률 확인 | 매수/매도 내역 기반 수익률 확인 |
-| 📒 주식 매매 일지 | 주식 거래 기록 저장 및 수정 |
-| 📊 종목 시세 정보 | 종가, 시가, 저가 비교 차트 |
-| 📰 종목 뉴스 정보 | 키워드 및 카테고리 기반 뉴스 조회 |
+| 로그인 / 회원가입 | 사용자 인증 기능 |
+| 지수 차트 출력 | KOSPI / KOSDAQ |
+| 관심 종목 추가 | 실시간 종목 관리 |
+| 보유 주식 확인 | 매도 주식 수익률 계산 |
+| 수익률 확인 | 매수/매도 내역 기반 수익률 확인 |
+| 주식 매매 일지 | 주식 거래 기록 저장 및 수정 |
+| 종목 시세 정보 | 종가, 시가, 저가 비교 차트 |
+| 종목 뉴스 정보 | 키워드 및 카테고리 기반 뉴스 조회 |
 
 
 ![Image](https://github.com/user-attachments/assets/3662dd29-6825-4a11-b9cf-ead21653f594)
 ![Image](https://github.com/user-attachments/assets/a7893b7b-bfe4-46ab-8ec3-527ee3b9caca)
 ### 1️⃣ 지수 차트 시각화
 
-Yahoo Finance API를 활용해 KOSPI, KOSDAQ 지수를 실시간으로 불러오고,  
-시계열 차트로 시각화합니다.
+Yahoo Finance API를 활용해 KOSPI, KOSDAQ 지수를 실시간으로 불러오고, 시계열 차트로 시각화
 
 - `Calendar`, `DateTimeFormatter` 활용
 - `HttpURLConnection`으로 API 호출 (GET 방식)
@@ -74,7 +73,7 @@ Yahoo Finance API를 활용해 KOSPI, KOSDAQ 지수를 실시간으로 불러오
 
 ### 2️⃣ DB 출력 (테이블 기반)
 
-로컬 DB에 저장된 매매 정보를 JDBC로 연동하여 `JTable`에 출력합니다.
+로컬 DB에 저장된 매매 정보를 JDBC로 연동하여 `JTable`에 출력
 
 - `DefaultTableModel` 기반 테이블 구성
 - 사용자 매수/매도 기록 조회
