@@ -42,6 +42,29 @@
 
 ![Image](https://github.com/user-attachments/assets/3662dd29-6825-4a11-b9cf-ead21653f594)
 ![Image](https://github.com/user-attachments/assets/a7893b7b-bfe4-46ab-8ec3-527ee3b9caca)
+### 1️⃣ 지수 차트 기능
+
+Yahoo Finance API를 이용해 KOSPI와 KOSDAQ의 지수를 실시간으로 조회하고,  
+이를 기반으로 Swing GUI에 시계열 차트로 시각화하는 기능입니다.
+
+#### 📌 주요 기능
+
+- ✅ `Calendar`와 `DateTimeFormatter`를 활용한 기간 계산
+- ✅ Yahoo Finance API 호출 (`HttpURLConnection`, GET 방식)
+- ✅ API 응답 파싱 및 종가(Close Price) 추출
+- ✅ `JFreeChart` 라이브러리로 차트 생성 및 GUI에 출력
+
+#### 🖼️ 차트 예시
+- KOSPI, KOSDAQ 지수 시각화
+- 날짜별 종가 변화 추이 출력
+- API 응답 데이터 (Close Price) 리스트 출력
+
+#### 📂 관련 클래스
+- `Panel1Action.java`, `Panel1_1Action.java`, `SI_Panel1Action.java`, `SI_Panel1_1Action.java`
+
+
+---
+
 ![Image](https://github.com/user-attachments/assets/c89bd978-76fd-4a69-ab60-543774f02564)
 ![Image](https://github.com/user-attachments/assets/5ed9303f-18f2-476d-9243-72d1bbc5d393)
 
