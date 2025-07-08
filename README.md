@@ -138,8 +138,8 @@ Yahoo Finance API를 활용해 KOSPI, KOSDAQ 지수를 실시간으로 불러오
 `SI_PanelAction5.java`, `SI_PanelAction5_1.java`
 
 ---
-![Image](https://github.com/user-attachments/assets/0f570e37-0093-4535-95c9-a125a92d9db5)
-![Image](https://github.com/user-attachments/assets/5fc63524-9e76-4879-bdb7-ebb8735749a1)
+<img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/5913eb31-9538-4d36-ae01-bd5ebec0c77d" />
+<img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/2f1e8878-b7cb-457e-b91e-95f149c503e7" />
 ### 7️⃣ 하단탭 기능
 
 Swing GUI 하단에 실시간 지수 및 수급 정보를 표시
@@ -153,9 +153,7 @@ Swing GUI 하단에 실시간 지수 및 수급 정보를 표시
 `Panel6Action.java`
 
 ---
-
----
-![Image](https://github.com/user-attachments/assets/60665a75-6019-4edc-9fe4-9a393dce1d5e)
+<img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/4ae6854f-e7f7-4090-bae8-ff4c7c33ae70" />
 
 ### 8️⃣ 로그아웃 후 자동 종료
 
