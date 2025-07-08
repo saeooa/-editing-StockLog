@@ -42,16 +42,6 @@
 
 ![Image](https://github.com/user-attachments/assets/3662dd29-6825-4a11-b9cf-ead21653f594)
 
-#### 🌐 API 연동
-금융위원회 주식 시세 정보 OpenAPI를 호출하여 실시간 종목 정보를 테이블로 출력합니다.
-
-- ✅ HTTP 요청 / 응답 처리
-- ✅ 종목별 시세 및 증감률 확인
-- ✅ `JTable`로 시각화
-
-**📂 관련 클래스**  
-`SI_Panel4Action.java`
-
 ![Image](https://github.com/user-attachments/assets/a7893b7b-bfe4-46ab-8ec3-527ee3b9caca)
 ![Image](https://github.com/user-attachments/assets/c89bd978-76fd-4a69-ab60-543774f02564)
 ![Image](https://github.com/user-attachments/assets/5ed9303f-18f2-476d-9243-72d1bbc5d393)
@@ -69,6 +59,15 @@ JDBC를 통해 로컬 DB에 저장된 매매 정보를 불러와 `JTable`에 출
 **📂 관련 클래스**  
 `Panel2Action.java`
 ![Image](https://github.com/user-attachments/assets/76846f61-a648-4a66-8961-4bc45b283c96)
+#### 🌐 API 연동
+금융위원회 주식 시세 정보 OpenAPI를 호출하여 실시간 종목 정보를 테이블로 출력합니다.
+
+- ✅ HTTP 요청 / 응답 처리
+- ✅ 종목별 시세 및 증감률 확인
+- ✅ `JTable`로 시각화
+
+**📂 관련 클래스**  
+`SI_Panel4Action.java`
 ![Image](https://github.com/user-attachments/assets/b5028772-669f-4494-b53d-30dde0921c0e)
 ![Image](https://github.com/user-attachments/assets/8d4d5570-80ec-4121-891b-244fdc48b965)
 ![Image](https://github.com/user-attachments/assets/0c963b0d-b9ab-418e-9cf1-de3ec851fd55)
