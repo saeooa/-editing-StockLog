@@ -72,7 +72,20 @@ JDBC를 통해 로컬 DB에 저장된 매매 정보를 불러와 `JTable`에 출
 **📂 관련 클래스**  
 `SI_Panel4Action.java`
 </br>
+---
 ![Image](https://github.com/user-attachments/assets/8d4d5570-80ec-4121-891b-244fdc48b965)
+### 3️⃣ 검색창 기능
+
+관심 종목을 검색하여 매매 기록을 등록하거나, 기존 기록을 수정할 수 있는 기능을 제공합니다.
+
+- ✅ 종목 검색창 (`JTextField`, `JButton`)
+- ✅ 매수/매도 기록 입력 폼
+- ✅ 관심 주식 목록 관리
+
+**📂 관련 클래스**  
+`Panel3Action.java`, `Panel5Action.java`
+
+---
 ![Image](https://github.com/user-attachments/assets/0c963b0d-b9ab-418e-9cf1-de3ec851fd55)
 ![Image](https://github.com/user-attachments/assets/83e73585-610d-4125-8d89-a928917e39ba)
 ![Image](https://github.com/user-attachments/assets/0f570e37-0093-4535-95c9-a125a92d9db5)
