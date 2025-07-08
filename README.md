@@ -41,7 +41,6 @@
 
 
 ![Image](https://github.com/user-attachments/assets/3662dd29-6825-4a11-b9cf-ead21653f594)
-
 ![Image](https://github.com/user-attachments/assets/a7893b7b-bfe4-46ab-8ec3-527ee3b9caca)
 ![Image](https://github.com/user-attachments/assets/c89bd978-76fd-4a69-ab60-543774f02564)
 ![Image](https://github.com/user-attachments/assets/5ed9303f-18f2-476d-9243-72d1bbc5d393)
@@ -118,4 +117,31 @@ JDBC를 통해 로컬 DB에 저장된 매매 정보를 불러와 `JTable`에 출
 ---
 ![Image](https://github.com/user-attachments/assets/0f570e37-0093-4535-95c9-a125a92d9db5)
 ![Image](https://github.com/user-attachments/assets/5fc63524-9e76-4879-bdb7-ebb8735749a1)
+### 6️⃣ 하단탭 기능
+
+메인 화면 하단에 KOSPI, KOSDAQ 실시간 지수와 외국인·기관 수급 정보를 출력합니다.  
+Yahoo Finance API 및 웹 크롤링(JSoup)을 통해 정보를 수집하고 Swing GUI에 동적으로 렌더링합니다.
+
+- ✅ 실시간 지수 출력 (KOSPI, KOSDAQ)
+- ✅ 외국인/기관 매수·매도 현황 표시
+- ✅ Jsoup 라이브러리 활용 웹 스크래핑
+- ✅ 문자열 파싱 및 데이터 색상 구분 출력
+
+**📂 관련 클래스**  
+`Panel6Action.java`
+
+---
 ![Image](https://github.com/user-attachments/assets/60665a75-6019-4edc-9fe4-9a393dce1d5e)
+
+### 7️⃣ 로그아웃 후 자동 종료
+
+로그아웃 시 자동으로 카운트다운 팝업이 표시되고, 3초 뒤 시스템이 종료되도록 구성된 기능입니다.
+
+- ✅ 로그아웃 알림 팝업 표시 (`JFrame`)
+- ✅ `javax.swing.Timer`를 활용한 3초 카운트다운
+- ✅ 3초 뒤 시스템 자동 종료 (`System.exit(0)`)
+
+**📂 관련 클래스**  
+`Home.java`, `Stockinfo.java`
+
+---
