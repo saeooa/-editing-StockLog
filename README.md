@@ -1,6 +1,9 @@
 # StockLog
 
 ## 프로젝트 소개
+
+![Image](https://github.com/user-attachments/assets/ba32c498-19cc-4de2-9c6c-ddc725dfdeb7)
+
 **주식 매매 일지 시스템: 스톡로그 **</br>
 : 청년층의 주식 투자 참여 증가에 주목하여, 금융과 프로그래밍 개발을 기반으로 주식 매수·매도 기록과 현재 수익률을 관리할 수 있는 일지형 시스템을 개발하는 프로젝트
 
@@ -18,9 +21,6 @@
 </br>
 
 
-
-
-![Image](https://github.com/user-attachments/assets/ba32c498-19cc-4de2-9c6c-ddc725dfdeb7)
 ![Image](https://github.com/user-attachments/assets/73bde540-25ae-42d5-909a-f3c759af6391)
 ![Image](https://github.com/user-attachments/assets/5ed9303f-18f2-476d-9243-72d1bbc5d393)
 ![Image](https://github.com/user-attachments/assets/3662dd29-6825-4a11-b9cf-ead21653f594)
