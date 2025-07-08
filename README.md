@@ -8,11 +8,11 @@
 : 청년층의 주식 투자 참여 증가에 주목하여, 금융과 프로그래밍 개발을 기반으로 주식 매수·매도 기록과 현재 수익률을 관리할 수 있는 일지형 시스템을 개발하는 프로젝트
 </br></br>
 
-### 📅 개발 기간
+## 📅 개발 기간
 2024년 1월 6일 ~ 2024년 1월 16일
 </br></br>
 
-### ⚙ 개발 환경
+## ⚙ 개발 환경
 ![windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![mac](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
