@@ -1,8 +1,8 @@
 # newStockLog
 
-![Image](https://github.com/user-attachments/assets/5ed9303f-18f2-476d-9243-72d1bbc5d393)
 ![Image](https://github.com/user-attachments/assets/ba32c498-19cc-4de2-9c6c-ddc725dfdeb7)
 ![Image](https://github.com/user-attachments/assets/73bde540-25ae-42d5-909a-f3c759af6391)
+![Image](https://github.com/user-attachments/assets/5ed9303f-18f2-476d-9243-72d1bbc5d393)
 ![Image](https://github.com/user-attachments/assets/3662dd29-6825-4a11-b9cf-ead21653f594)
 ![Image](https://github.com/user-attachments/assets/a7893b7b-bfe4-46ab-8ec3-527ee3b9caca)
 ![Image](https://github.com/user-attachments/assets/c89bd978-76fd-4a69-ab60-543774f02564)
