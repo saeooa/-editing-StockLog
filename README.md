@@ -58,7 +58,10 @@ JDBC를 통해 로컬 DB에 저장된 매매 정보를 불러와 `JTable`에 출
 
 **📂 관련 클래스**  
 `Panel2Action.java`
+</br>
 ![Image](https://github.com/user-attachments/assets/76846f61-a648-4a66-8961-4bc45b283c96)
+![Image](https://github.com/user-attachments/assets/b5028772-669f-4494-b53d-30dde0921c0e)
+
 #### 🌐 API 연동
 금융위원회 주식 시세 정보 OpenAPI를 호출하여 실시간 종목 정보를 테이블로 출력합니다.
 
@@ -68,7 +71,7 @@ JDBC를 통해 로컬 DB에 저장된 매매 정보를 불러와 `JTable`에 출
 
 **📂 관련 클래스**  
 `SI_Panel4Action.java`
-![Image](https://github.com/user-attachments/assets/b5028772-669f-4494-b53d-30dde0921c0e)
+</br>
 ![Image](https://github.com/user-attachments/assets/8d4d5570-80ec-4121-891b-244fdc48b965)
 ![Image](https://github.com/user-attachments/assets/0c963b0d-b9ab-418e-9cf1-de3ec851fd55)
 ![Image](https://github.com/user-attachments/assets/83e73585-610d-4125-8d89-a928917e39ba)
