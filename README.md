@@ -39,20 +39,6 @@
 | 📊 종목 시세 정보 | 종가, 시가, 저가 비교 차트 |
 | 📰 종목 뉴스 정보 | 키워드 및 카테고리 기반 뉴스 조회 |
 
-![Image](https://github.com/user-attachments/assets/5ed9303f-18f2-476d-9243-72d1bbc5d393)
-
-
-### 2️⃣ 테이블로 데이터 출력
-
-#### 📌 DB 연동
-JDBC를 통해 로컬 DB에 저장된 매매 정보를 불러와 `JTable`에 출력합니다.
-
-- ✅ `DefaultTableModel` 기반 테이블 구성
-- ✅ 사용자 매수/매도 기록 조회
-- ✅ SQL 쿼리 기반 데이터 처리
-
-**📂 관련 클래스**  
-`Panel2Action.java`
 
 ![Image](https://github.com/user-attachments/assets/3662dd29-6825-4a11-b9cf-ead21653f594)
 
@@ -68,6 +54,20 @@ JDBC를 통해 로컬 DB에 저장된 매매 정보를 불러와 `JTable`에 출
 
 ![Image](https://github.com/user-attachments/assets/a7893b7b-bfe4-46ab-8ec3-527ee3b9caca)
 ![Image](https://github.com/user-attachments/assets/c89bd978-76fd-4a69-ab60-543774f02564)
+![Image](https://github.com/user-attachments/assets/5ed9303f-18f2-476d-9243-72d1bbc5d393)
+
+
+### 2️⃣ 테이블로 데이터 출력
+
+#### 📌 DB 연동
+JDBC를 통해 로컬 DB에 저장된 매매 정보를 불러와 `JTable`에 출력합니다.
+
+- ✅ `DefaultTableModel` 기반 테이블 구성
+- ✅ 사용자 매수/매도 기록 조회
+- ✅ SQL 쿼리 기반 데이터 처리
+
+**📂 관련 클래스**  
+`Panel2Action.java`
 ![Image](https://github.com/user-attachments/assets/76846f61-a648-4a66-8961-4bc45b283c96)
 ![Image](https://github.com/user-attachments/assets/b5028772-669f-4494-b53d-30dde0921c0e)
 ![Image](https://github.com/user-attachments/assets/8d4d5570-80ec-4121-891b-244fdc48b965)
