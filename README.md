@@ -26,17 +26,18 @@
 
 
 ![Image](https://github.com/user-attachments/assets/73bde540-25ae-42d5-909a-f3c759af6391)
-### 1️⃣ 지수 차트 기능
+## 🧩 전체 기능 요약
 
-KOSPI, KOSDAQ 지수를 시계열 차트로 시각화합니다.  
-Yahoo Finance API를 호출하여 데이터를 가져오고, `JFreeChart`를 통해 그래프로 출력합니다.
-
-- ✅ 실시간 지수 조회
-- ✅ 시계열 차트 시각화 (`JFreeChart`)
-- ✅ 기간별 지수 비교
-
-**📂 관련 클래스**  
-`Panel1Action.java`, `SI_Panel1Action.java`
+| 기능 구분 | 세부 설명 |
+|-----------|-----------|
+| 🔐 로그인 / 회원가입 | 사용자 인증 기능 |
+| 📈 지수 차트 출력 | KOSPI / KOSDAQ |
+| ➕ 관심 종목 추가 | 실시간 종목 관리 |
+| 📋 보유 주식 확인 | 매도 주식 수익률 계산 |
+| 💰 수익률 확인 | 매수/매도 내역 기반 수익률 확인 |
+| 📒 주식 매매 일지 | 주식 거래 기록 저장 및 수정 |
+| 📊 종목 시세 정보 | 종가, 시가, 저가 비교 차트 |
+| 📰 종목 뉴스 정보 | 키워드 및 카테고리 기반 뉴스 조회 |
 
 ![Image](https://github.com/user-attachments/assets/5ed9303f-18f2-476d-9243-72d1bbc5d393)
 
