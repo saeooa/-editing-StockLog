@@ -125,7 +125,7 @@ Yahoo Finance API를 활용해 KOSPI, KOSDAQ 지수를 실시간으로 불러오
 `SI_PanelAction2.java`, `SI_PanelAction2_1.java`
 
 ---
-![Image](https://github.com/user-attachments/assets/83e73585-610d-4125-8d89-a928917e39ba)
+![Image](https://github.com/user-attachments/assets/ef3065f7-3e3c-46dd-8182-1192141b89d7)
 ### 6️⃣ 뉴스 검색 기능
 
 키워드 또는 카테고리를 기반으로 종목 관련 뉴스를 조회
