@@ -59,6 +59,8 @@ JDBC를 통해 로컬 DB에 저장된 매매 정보를 불러와 `JTable`에 출
 **📂 관련 클래스**  
 `Panel2Action.java`
 </br>
+
+---
 ![Image](https://github.com/user-attachments/assets/76846f61-a648-4a66-8961-4bc45b283c96)
 ![Image](https://github.com/user-attachments/assets/b5028772-669f-4494-b53d-30dde0921c0e)
 
@@ -88,7 +90,32 @@ JDBC를 통해 로컬 DB에 저장된 매매 정보를 불러와 `JTable`에 출
 
 ---
 ![Image](https://github.com/user-attachments/assets/0c963b0d-b9ab-418e-9cf1-de3ec851fd55)
+
+### 4️⃣ 시세 차트 기능
+
+엑셀 파일로부터 주가 데이터를 불러와 시세 비교 차트를 생성합니다.
+
+- ✅ Apache POI를 이용한 Excel 파싱
+- ✅ 시가 / 종가 / 저가 비교
+- ✅ 라인 차트 구성 (`JFreeChart`)
+
+**📂 관련 클래스**  
+`SI_PanelAction2.java`, `SI_PanelAction2_1.java`
+
+---
 ![Image](https://github.com/user-attachments/assets/83e73585-610d-4125-8d89-a928917e39ba)
+### 5️⃣ 뉴스 검색 기능
+
+키워드 또는 카테고리를 기반으로 종목 관련 뉴스를 검색하고 출력합니다.
+
+- ✅ 뉴스 OpenAPI 호출
+- ✅ JSON 파싱 및 기사 추출
+- ✅ 검색 결과 GUI 출력
+
+**📂 관련 클래스**  
+`SI_PanelAction5.java`, `SI_PanelAction5_1.java`
+
+---
 ![Image](https://github.com/user-attachments/assets/0f570e37-0093-4535-95c9-a125a92d9db5)
 ![Image](https://github.com/user-attachments/assets/5fc63524-9e76-4879-bdb7-ebb8735749a1)
 ![Image](https://github.com/user-attachments/assets/60665a75-6019-4edc-9fe4-9a393dce1d5e)
